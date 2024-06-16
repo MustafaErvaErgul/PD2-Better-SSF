@@ -289,8 +289,8 @@ of Chance	286	1	1	1	12		9				4	22	mag%		15	15											boot	glov	ring	amul	circ
 of Fortune	287	1	1	1	16		12				4	22	mag%		25	25									1	lgld	boot	glov	amul	circ	helm	misl									0
 of Fortune	288	1	1	1	42		31				2	22	mag%		25	25									1	lgld	ring														0
 of Luck	289	100	1		26		19				4	22	mag%		35	35									1	lgld	boot	amul	circ	misl											0
-of Fortune	290	100	1	1	31		18				3	22	mag%		5	5											scha														0
-of Good Luck	291	100	1		47		33				2	22	mag%		7	7											scha														0
+of Fortune	290	100	1	1	31		18				4	22	mag%		5	5											scha														0
+of Good Luck	291	100	1		47		33				4	22	mag%		7	7											scha														0
 of Prosperity	292	100	1	1	26		19				2	22	mag%		10	10											jewl														0
 of Energy	293	1	1	1	1	41	1				4	23	enr		3	3											amul	orb	circ	wand	staf										0
 of the Mind	294	1	1	1	7	47	3				4	23	enr		6	6											misl	orb	circ	wand	staf										0
