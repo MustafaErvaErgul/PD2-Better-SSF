@@ -23,6 +23,7 @@
 * Countess in Hell can drop all runes. Also improved rune drops in Nightmare.
 * Puzzlepiece, Puzzlebox, Skeleton Key, Infinite Tomes, Vial, Mirror, are more common.
 * Treasure Fallen (loot goblins) can drop all runes.
+* Characters start with Cube and both Tomes.
 
 ## Itemization
 
