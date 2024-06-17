@@ -7,6 +7,8 @@
 * Add "data" folder to your PD2 directory.
 * Add -direct -txt to your PlugY.ini params. It should looke something like "-3dfx -direct -txt"
 
+* "Save" files in this repository are just level 1 characters that have all quests & waypoints unlocked. You can use the Save files if you want an "Adventure Mode" like experience from Diablo 3.   
+
 # Changelog
 
 ## General
