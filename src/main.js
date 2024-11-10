@@ -1,4 +1,3 @@
-import { clearLogFiles } from "./utils/CommonUtils.js"
 import { applyCubeMainChanges } from "./changes/CubeMain.js"
 import { applyMagicPrefixChanges } from "./changes/MagicPrefix.js"
 import { applyMagicSuffixChanges } from "./changes/MagicSuffix.js"
@@ -9,7 +8,6 @@ import { applyExperienceChanges } from "./changes/Experience.js"
 import { applyTreasureClassExChanges } from "./changes/TreasureClassEx.js"
 import { applySkillsChanges } from "./changes/Skills.js"
 
-// clearLogFiles()
 applyExperienceChanges()
 applyCubeMainChanges()
 applyMagicPrefixChanges()

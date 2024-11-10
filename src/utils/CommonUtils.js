@@ -4,6 +4,11 @@ const infoLogFilePath = "./logs/info.txt"
 const warningLogFilePath = "./logs/warning.txt"
 const errorLogFilePath = "./logs/error.txt"
 
+/**
+* Converts the content of a Diablo 2 .txt file into an array of objects for easy manipulation.
+* @param {string} fileData - The raw string content of the D2 .txt file.
+* @return {Array<Object>} An array of objects where each object represents a row, with keys from the file headers.
+*/
 export const convertTxtToArray = (fileData) => {
   const lines = fileData.split("\n")
   const headers = lines[0].trimEnd().split("\t")
@@ -20,6 +25,11 @@ export const convertTxtToArray = (fileData) => {
   return data
 }
 
+/**
+* Converts an array of objects back into a .txt format compatible with D2 files.
+* @param {Array<Object>} data - An array of objects, each representing a row in the .txt file, with keys matching headers.
+* @return {string} The formatted .txt content as a single string.
+*/
 export const convertArrayToTxt = (data) => {
   if (data.length === 0) return ""
 
