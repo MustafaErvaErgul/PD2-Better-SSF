@@ -166,3 +166,34 @@ export const changeItemDropProb = (data, treasureClassName, itemName, changedIte
     logError(`changeItemDropProb was unsuccessful`)
   }
 }
+
+export const changeTreasureClassExField = (data, treasureClassName, fieldToChange, changedFieldValue) => {
+  let treasureClassFieldChanged = false
+
+  const treasureClassToChange = data.find((element) => {
+    return element['Treasure Class'] == treasureClassName
+  })
+
+  if (!treasureClassToChange) {
+    logError(`Couldn't find Treasure Class ${treasureClassName}`)
+    return
+  }
+
+  if (!treasureClassToChange[fieldToChange]) {
+    logError(`Treasure Class "${treasureClassName}" does not have the Field "${fieldToChange}"`)
+    return
+  } else {
+    const oldValue = treasureClassToChange[fieldToChange]
+    treasureClassToChange[fieldToChange] = changedFieldValue
+    treasureClassFieldChanged = true
+
+    logInfo(`Changed TreasureClassEx entry! ${fieldToChange} value changed from ${oldValue} to ${changedFieldValue}`)
+  }
+
+
+  if (treasureClassFieldChanged) {
+    logInfo(`changeTreasureClassExField was successful`)
+  } else {
+    logError(`changeTreasureClassExField was unsuccessful`)
+  }
+}

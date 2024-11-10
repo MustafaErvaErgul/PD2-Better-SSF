@@ -4,6 +4,10 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 
 # Changelog
 
+## Version 1.1.0
+
+* Larzuk Puzzlepiece, Larzuk Puzzlebox, Skeleton Key, Infinite Books, Lilith's Mirror and Vial of Lightsong made more common.
+
 ## Version 1.0.0
 
 ### General

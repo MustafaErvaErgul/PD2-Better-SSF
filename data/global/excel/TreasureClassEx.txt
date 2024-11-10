@@ -997,26 +997,26 @@ Treasure Fallen N			3					12	Treasure Fallen Gem N	1	Treasure Fallen Rune N	1	Tr
 Treasure Fallen NM			3					11	Treasure Fallen Gem NM	1	Treasure Fallen Rune NM	1	Treasure Fallen Craft NM	1	"gld,mul=3072"	2																0
 Treasure Fallen H			3						Treasure Fallen Gem H	1	Treasure Fallen Rune H	1	Treasure Fallen Craft H	1	Treasure Fallen Map	1	"gld,mul=4096"	1														0
 Larzuk Puzzlebox N				0																												0
-Larzuk Puzzlebox NM				4500	100																											0
-Larzuk Puzzlebox H				2250	100																											0
-Larzuk Puzzlepiece N				4050	100																											0
-Larzuk Puzzlepiece NM				2025	100																											0
-Larzuk Puzzlepiece H				900	100																											0
-SkeletonKey N				5000	1000																											
-SkeletonKey NM				5000	1000																											
-SkeletonKey H				5000	1000																											
-Horadric ID Book N				5000	1000																											
-Horadric ID Book NM				5000	1000																											
-Horadric ID Book H				5000	1000																											
-Horadric TP Book N				5000	1000																											
-Horadric TP Book NM				5000	1000																											
-Horadric TP Book H				5000	1000																											
-Lillith Mirror N				25000	1000																											
-Lillith Mirror NM				25000	1000																											
-Lillith Mirror H				25000	1000																											
-Vial of Lightsong N				7500	1000																											
-Vial of Lightsong NM				7500	1000																											
-Vial of Lightsong H				7500	1000																											
+Larzuk Puzzlebox NM				1800	100																											0
+Larzuk Puzzlebox H				900	100																											0
+Larzuk Puzzlepiece N				1800	100																											0
+Larzuk Puzzlepiece NM				900	100																											0
+Larzuk Puzzlepiece H				450	100																											0
+SkeletonKey N				3600	1000																											
+SkeletonKey NM				1800	1000																											
+SkeletonKey H				1800	1000																											
+Horadric ID Book N				3600	1000																											
+Horadric ID Book NM				1800	1000																											
+Horadric ID Book H				1800	1000																											
+Horadric TP Book N				3600	1000																											
+Horadric TP Book NM				1800	1000																											
+Horadric TP Book H				1800	1000																											
+Lillith Mirror N				5000	1000																											
+Lillith Mirror NM				5000	1000																											
+Lillith Mirror H				5000	1000																											
+Vial of Lightsong N				2500	1000																											
+Vial of Lightsong NM				2500	1000																											
+Vial of Lightsong H				2500	1000																											
 Corrupted Zone				150																												
 Unique Map Monsters				7500	10																											
 Unique Map MapBoss				6000																												

@@ -5,7 +5,7 @@ const filePath = "../data/global/excel/TreasureClassEx.txt"
 const fileOutputPath = "../data/global/excel/TreasureClassEx.txt"
 
 import { craftingInfusionTreasureClass } from "../arbitrary/index.js"
-import { addNewTreasureClass, addItemToTreasureClass, removeItemFromTreasureClass, changeItemDropProb, makeActBossesQuestBugged } from "../utils/TreasureClassExUtils.js"
+import { addNewTreasureClass, addItemToTreasureClass, removeItemFromTreasureClass, changeItemDropProb, makeActBossesQuestBugged, changeTreasureClassExField } from "../utils/TreasureClassExUtils.js"
 
 
 const addCraftingInfusionTreasureClass = (arrayData) => {
@@ -133,6 +133,35 @@ const makeHighRunesMoreCommon = (arrayData) => {
   changeItemDropProb(arrayData, "Runes 12 equiv", "Runes 11", "720")
 }
 
+const makePd2ItemsMoreCommon = (arrayData) => {
+  changeTreasureClassExField(arrayData, "Larzuk Puzzlebox NM", "Unique", 1800)
+  changeTreasureClassExField(arrayData, "Larzuk Puzzlebox H", "Unique", 900)
+
+  changeTreasureClassExField(arrayData, "Larzuk Puzzlepiece N", "Unique", 1800)
+  changeTreasureClassExField(arrayData, "Larzuk Puzzlepiece NM", "Unique", 900)
+  changeTreasureClassExField(arrayData, "Larzuk Puzzlepiece H", "Unique", 450)
+
+  changeTreasureClassExField(arrayData, "SkeletonKey N", "Unique", 3600)
+  changeTreasureClassExField(arrayData, "SkeletonKey NM", "Unique", 1800)
+  changeTreasureClassExField(arrayData, "SkeletonKey H", "Unique", 1800)
+
+  changeTreasureClassExField(arrayData, "Horadric ID Book N", "Unique", 3600)
+  changeTreasureClassExField(arrayData, "Horadric ID Book NM", "Unique", 1800)
+  changeTreasureClassExField(arrayData, "Horadric ID Book H", "Unique", 1800)
+
+  changeTreasureClassExField(arrayData, "Horadric TP Book N", "Unique", 3600)
+  changeTreasureClassExField(arrayData, "Horadric TP Book NM", "Unique", 1800)
+  changeTreasureClassExField(arrayData, "Horadric TP Book H", "Unique", 1800)
+
+  changeTreasureClassExField(arrayData, "Lillith Mirror N", "Unique", 5000)
+  changeTreasureClassExField(arrayData, "Lillith Mirror NM", "Unique", 5000)
+  changeTreasureClassExField(arrayData, "Lillith Mirror H", "Unique", 5000)
+
+  changeTreasureClassExField(arrayData, "Vial of Lightsong N", "Unique", 2500)
+  changeTreasureClassExField(arrayData, "Vial of Lightsong NM", "Unique", 2500)
+  changeTreasureClassExField(arrayData, "Vial of Lightsong H", "Unique", 2500)
+}
+
 
 export const applyTreasureClassExChanges = () => {
   const txtData = fs.readFileSync(filePath, "latin1")
@@ -146,6 +175,7 @@ export const applyTreasureClassExChanges = () => {
   makeHellCountesDropAllRunes(arrayData)
   changeMapBossDrops(arrayData)
   makeHighRunesMoreCommon(arrayData)
+  makePd2ItemsMoreCommon(arrayData)
 
   const modifiedTxtData = convertArrayToTxt(arrayData)
   fs.writeFileSync(fileOutputPath, modifiedTxtData, "latin1")
