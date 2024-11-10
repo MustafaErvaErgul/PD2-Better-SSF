@@ -1,5 +1,9 @@
 import { logInfo } from "./CommonUtils.js"
 
+export const addNewCraftingRecipe = (data, newRecipe) => {
+  data.unshift(newRecipe)
+}
+
 export const makeCraftedItemsRollMaxValues = (data) => {
   let craftedItemsRollMaxValue = false
 

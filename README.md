@@ -4,10 +4,6 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 
 # Changelog
 
-## Version 1.1.0
-
-* Larzuk Puzzlepiece, Larzuk Puzzlebox, Skeleton Key, Infinite Books, Lilith's Mirror and Vial of Lightsong made more common.
-
 ## Version 1.0.0
 
 ### General
@@ -21,6 +17,7 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 * Map Boss drops have been adjusted so that they drop alot more maps. (Making it easier to sustain as SSF)
 * Lower Kurast has Super Chests again.
 * High Runes are slightly more common.
+* Larzuk Puzzlepiece, Larzuk Puzzlebox, Skeleton Key, Infinite Books, Lilith's Mirror and Vial of Lightsong made more common.
 
 ### Items
 * Affixes on items always roll max values within their respective tier.
@@ -34,3 +31,8 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 
 ### Skills
 * Teleport base mana cost changed from 24 to 8 and can be cast in town. (Same also applies to Blink)
+
+### Cube
+
+* Added a recipe to craft a random Facet
+  * 1 Identity Scroll + 1 Town Scroll + 10 Jewel Fragments -> 1 Random Unique Jewel 
