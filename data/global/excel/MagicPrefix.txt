@@ -737,21 +737,21 @@ Ghastly	734	1	1	1	1		1				1	169	map-glob-add-mon-ghost		1111	1111	map-glob-densi
 Blood Letting	735	1	1	1	13	53	12				3	200	heal-kill		1	1											weap	ring	circ	tors	helm	shld	misl								0
 Murderous	736	100	1	1	51		44				1	200	heal-kill		5	5											weap	circ	tors	helm	shld	misl									0
 Blood Sucking	737	100	1	1	32		26				2	200	heal-kill		3	3											jewl	tors	helm	shld	weap	ring	misl								0
-Channeling	738	100	1	1	14		14				3	201	extra-ltng		2	2											mcha	mchp													0
-Cold	739	100	1	1	14		14				3	201	extra-cold		2	2											mcha	mchp													0
-Cinder	740	100	1	1	14		14				3	201	extra-fire		2	2											mcha	mchp													0
-Morbid	741	100	1	1	14		14				3	201	extra-pois		2	2											mcha	mchp													0
-Sparkling	742	100	1	1	14		14				3	201	extra-magi		2	2											mcha	mchp													0
-Discharging	743	100	1	1	28		28				3	201	extra-ltng		3	3											mcha														0
-Frigid	744	100	1	1	28		28				3	201	extra-cold		3	3											mcha														0
-Wildfire	745	100	1	1	28		28				3	201	extra-fire		3	3											mcha														0
-Malicious	746	100	1	1	28		28				3	201	extra-pois		3	3											mcha														0
-Effervescent	747	100	1	1	28		28				3	201	extra-magi		3	3											mcha														0
-Conduit	748	100	1	1	42		42				2	201	extra-ltng		3	3											mcha														0
-Numbing	749	100	1	1	42		42				2	201	extra-cold		3	3											mcha														0
-Inferno	750	100	1	1	42		42				2	201	extra-fire		3	3											mcha														0
-Infectious	751	100	1	1	42		42				2	201	extra-pois		3	3											mcha														0
-Scintillating	752	100	1	1	42		42				2	201	extra-magi		3	3											mcha														0
+Channeling	738	100	1	1	14		14				3	201	extra-ltng		3	3											mcha	mchp													0
+Cold	739	100	1	1	14		14				3	201	extra-cold		3	3											mcha	mchp													0
+Cinder	740	100	1	1	14		14				3	201	extra-fire		3	3											mcha	mchp													0
+Morbid	741	100	1	1	14		14				3	201	extra-pois		3	3											mcha	mchp													0
+Sparkling	742	100	1	1	14		14				3	201	extra-magi		3	3											mcha	mchp													0
+Discharging	743	100	1	1	28		28				3	201	extra-ltng		4	4											mcha														0
+Frigid	744	100	1	1	28		28				3	201	extra-cold		4	4											mcha														0
+Wildfire	745	100	1	1	28		28				3	201	extra-fire		4	4											mcha														0
+Malicious	746	100	1	1	28		28				3	201	extra-pois		4	4											mcha														0
+Effervescent	747	100	1	1	28		28				3	201	extra-magi		4	4											mcha														0
+Conduit	748	100	1	1	42		42				2	201	extra-ltng		4	4											mcha														0
+Numbing	749	100	1	1	42		42				2	201	extra-cold		4	4											mcha														0
+Inferno	750	100	1	1	42		42				2	201	extra-fire		4	4											mcha														0
+Infectious	751	100	1	1	42		42				2	201	extra-pois		4	4											mcha														0
+Scintillating	752	100	1	1	42		42				2	201	extra-magi		4	4											mcha														0
 Visceral	753	100	1	1	75		69				1	105	dmg%		400	400									1	blac	miss	amaz	knif	club	mace	tkni	taxe	aspe							0
 Divine	754	100	1	1	45		37				1	142	att-undead		450	450	dmg-undead		350	350						lgld	miss														0
 Celestial	755	100	1	1	55		41				1	123	att-demon		400	400	dmg-demon		300	300					1	dgld	miss														0

@@ -101,6 +101,39 @@ const makeSkillTabPrefixesMoreCommon = (arrayData) => {
   changeMagicPrefixField(arrayData, "Kenshi's", "513", "frequency", "4");
 }
 
+const makeLargeCharmPercentDamageAffixes4Percent = (arrayData) => {
+  changeMagicPrefixField(arrayData, "Channeling", "738", "mod1min", "3")
+  changeMagicPrefixField(arrayData, "Channeling", "738", "mod1max", "3")
+  changeMagicPrefixField(arrayData, "Cold", "739", "mod1min", "3")
+  changeMagicPrefixField(arrayData, "Cold", "739", "mod1max", "3")
+  changeMagicPrefixField(arrayData, "Cinder", "740", "mod1min", "3")
+  changeMagicPrefixField(arrayData, "Cinder", "740", "mod1max", "3")
+  changeMagicPrefixField(arrayData, "Morbid", "741", "mod1min", "3")
+  changeMagicPrefixField(arrayData, "Morbid", "741", "mod1max", "3")
+  changeMagicPrefixField(arrayData, "Sparkling", "742", "mod1min", "3")
+  changeMagicPrefixField(arrayData, "Sparkling", "742", "mod1max", "3")
+  changeMagicPrefixField(arrayData, "Discharging", "743", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Discharging", "743", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Frigid", "744", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Frigid", "744", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Wildfire", "745", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Wildfire", "745", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Malicious", "746", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Malicious", "746", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Effervescent", "747", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Effervescent", "747", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Conduit", "748", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Conduit", "748", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Numbing", "749", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Numbing", "749", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Inferno", "750", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Inferno", "750", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Infectious", "751", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Infectious", "751", "mod1max", "4")
+  changeMagicPrefixField(arrayData, "Scintillating", "752", "mod1min", "4")
+  changeMagicPrefixField(arrayData, "Scintillating", "752", "mod1max", "4")
+}
+
 export const applyMagicPrefixChanges = () => {
   const txtData = fs.readFileSync(filePath, "latin1")
   const arrayData = convertTxtToArray(txtData)
@@ -109,6 +142,7 @@ export const applyMagicPrefixChanges = () => {
   makeMagicPrefixesRollMaxValue(arrayData)
   makeAllResistanceOnAllCharmsMoreCommon(arrayData)
   makeSkillTabPrefixesMoreCommon(arrayData)
+  makeLargeCharmPercentDamageAffixes4Percent(arrayData)
 
 
   const modifiedTxtData = convertArrayToTxt(arrayData)

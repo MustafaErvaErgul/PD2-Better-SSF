@@ -17,20 +17,29 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 * Map Boss drops have been adjusted so that they drop alot more maps. (Making it easier to sustain as SSF)
 * Lower Kurast has Super Chests again.
 * High Runes are slightly more common.
-* Larzuk Puzzlepiece, Larzuk Puzzlebox, Skeleton Key, Infinite Books, Lilith's Mirror and Vial of Lightsong made more common.
+* Larzuk Puzzlepiece, Larzuk Puzzlebox, Skeleton Key, Infinite Books, Lilith's Mirror and Vial of Lightsong are more common.
 
 ### Items
+* Gheed's Fortune now always rolls 100% Magic Find and 160% Gold Find.
 * Affixes on items always roll max values within their respective tier.
   * 1-5 Life always rolls 5
   * 36-40 Life always rolls 40
   * An item doesn't always roll 40 Life
-* Gheed's Fortune now always rolls 100% Magic Find and 160% Gold Find.
 * "skilltab" prefixes are 4 times more common.
   * Skillers, +3 amulets, +3 gloves...
 * All Resistance on all Charms is 2 times more common.
+* % Damage Large Charms always roll 4%.
+  * Fire, Cold, Lightning, Poison, Magic damage Large Charms  
 
 ### Skills
-* Teleport base mana cost changed from 24 to 8 and can be cast in town. (Same also applies to Blink)
+* Level 1 mana cost of all mobility skills have been reduced to 8. They are also castable in town.
+  * Assassin's Dragon Flight
+  * Barbarian's Leap
+  * Druid's Gust
+  * Necromancer's Blood Warp
+  * Paladin's Charge
+  * Sorceress's Teleport
+  * Blink from Enigma
 
 ### Cube
 
