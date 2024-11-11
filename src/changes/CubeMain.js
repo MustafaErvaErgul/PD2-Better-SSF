@@ -1,6 +1,6 @@
 import fs from "fs"
 import { convertTxtToArray, convertArrayToTxt } from "../utils/CommonUtils.js"
-import { addNewCraftingRecipe, makeCraftedItemsRollMaxValues } from "../utils/CubeMainUtils.js"
+import { addNewCraftingRecipe, makeCorruptedStatsRollMaxValue, makeCraftedItemsRollMaxValues } from "../utils/CubeMainUtils.js"
 
 const filePath = "../data/global/excel/CubeMain.txt"
 const fileOutputPath = "../data/global/excel/CubeMain.txt"
@@ -13,6 +13,7 @@ export const applyCubeMainChanges = () => {
 
 
   makeCraftedItemsRollMaxValues(arrayData)
+  makeCorruptedStatsRollMaxValue(arrayData)
   addNewCraftingRecipe(arrayData, facetCraftingRecipe)
 
 
