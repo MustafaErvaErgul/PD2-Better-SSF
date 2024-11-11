@@ -2,6 +2,13 @@
 
 PD2 Better SSF is a mod aimed to improve the SSF experince.
 
+# Installation
+
+[Download the latest release](https://github.com/MustafaErvaErgul/PD2-Better-SSF/releases)
+
+1. Extract "data" in to your ProjectD2 directory.
+2. Open up "PlugY.ini" add "-direct" and "-txt" to "Param=-3dfx". It should look like "Param=-3dfx -direct -txt"
+
 # Changelog
 
 ### General
