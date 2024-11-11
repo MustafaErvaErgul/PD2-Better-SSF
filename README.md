@@ -56,3 +56,16 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 nodeVersion = v20.12.2
 
 The "src" folder in this repo contains JS code that applies all the changes mentioned above with a single command "npm start".
+
+You need to add unedited versions of the following .txt files under data/global/excel and than use "npm start".
+* CubeMain.txt
+* Experience.txt
+* MagicPrefix.txt
+* MagicSuffix.txt
+* Runes.txt
+* SetItems.txt
+* Skills.txt
+* TreasureClassEx.txt
+* UniqueItems.txt
+
+"npm start" should only be called once to edit the files. Replace the ".txt" files with the unedited ones whenever you want to use "npm start".
