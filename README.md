@@ -4,8 +4,6 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 
 # Changelog
 
-## Version 1.0.0
-
 ### General
 * Leveling has been made significantly easier until level 95. (95-99 is the same)
 * Crafting Infusions added as a possible drop to "good" treasure classes. (They can drop from many locations in the game)
