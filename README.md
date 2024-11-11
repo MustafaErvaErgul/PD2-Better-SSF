@@ -49,4 +49,9 @@ PD2 Better SSF is a mod aimed to improve the SSF experince.
 ### Cube
 
 * Added a recipe to craft a random Facet
-  * 1 Identity Scroll + 1 Town Scroll + 10 Jewel Fragments -> 1 Random Unique Jewel 
+  * 1 Identity Scroll + 1 Town Scroll + 10 Jewel Fragments -> 1 Random Unique Jewel
+
+# For Devs
+
+nodeVersion = v20.12.2
+The "src" folder in this repo contains JS code that applies all the changes mentioned above with a single command "npm start".
